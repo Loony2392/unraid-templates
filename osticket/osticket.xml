@@ -21,6 +21,7 @@
   <DonateText>Help support my work by buying us a cold beer</DonateText>
   <DonateLink>https://paypal.me/loony2392</DonateLink>
   <Requires>- Database (Mariadb, Mysql )</Requires>
+  <Config Name="WEB Port" Target="80" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
   <Config Name="Data Path" Target="/var/www/src/" Default="/mnt/user/appdata/osticket" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/osticket</Config>
   <Config Name="MYSQL_HOST" Target="MYSQL_HOST" Default="mariadb" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mariadb</Config>
   <Config Name="MYSQL_USER" Target="MYSQL_USER" Default="osticket" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">osticket</Config>
