@@ -21,14 +21,14 @@
   <DonateText/>
   <DonateLink/>
   <Requires>- Database (Mariadb, Mysql )</Requires>
-  <Config Name="MYSQL_HOST" Target="mariadb" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mariadb</Config>
-  <Config Name="MYSQL_USER" Target="osticket" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">osticket</Config>
-  <Config Name="MYSQL_DATABASE" Target="osticket" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">osticket</Config>
-  <Config Name="MYSQL_PASSWORD" Target="secret" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">secret</Config>
-  <Config Name="INSTALL_NAME" Target="My Helpdesk" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">My Helpdesk</Config>
-  <Config Name="ADMIN_FIRSTNAME" Target="Admin" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Admin</Config>
-  <Config Name="ADMIN_LASTNAME" Target="User" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">User</Config>
-  <Config Name="ADMIN_EMAIL" Target="admin@example.com" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">admin@example.com</Config>
-  <Config Name="ADMIN_USERNAME" Target="ostadmin" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Admin1</Config>
-  <Config Name="MYSQL_PREFIX" Target="ost_" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">ost_</Config>
+  <Config Name="MYSQL_HOST" Target="MYSQL_HOST" Default="mariadb" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mariadb</Config>
+  <Config Name="MYSQL_USER" Target="MYSQL_USER" Default="osticket" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">osticket</Config>
+  <Config Name="MYSQL_DATABASE" Target="MYSQL_DATABASE" Default="osticket" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">osticket</Config>
+  <Config Name="MYSQL_PASSWORD" Target="MYSQL_PASSWORD" Default="secret" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">secret</Config>
+  <Config Name="INSTALL_NAME" Target="INSTALL_NAME" Default="My Helpdesk" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">My Helpdesk</Config>
+  <Config Name="ADMIN_FIRSTNAME" Target="ADMIN_FIRSTNAME" Default="Admin" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Admin</Config>
+  <Config Name="ADMIN_LASTNAME" Target="ADMIN_LASTNAME" Default="User" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">User</Config>
+  <Config Name="ADMIN_EMAIL" Target="ADMIN_EMAIL" Default="admin@example.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">admin@example.com</Config>
+  <Config Name="ADMIN_USERNAME" Target="ADMIN_USERNAME" Default="ostadmin" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Admin1</Config>
+  <Config Name="MYSQL_PREFIX" Target="MYSQL_PREFIX" Default="ost_" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">ost_</Config>
 </Container>
