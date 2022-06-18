@@ -18,7 +18,7 @@ You and your friends can control the bot either through the included web interfa
 &#xD;
 User: admin&#xD;
 Password: (your password from WEB UI Password)</Overview>
-  <Category>Productivity: Tools: MediaServer:Music Status:Beta</Category>
+  <Category>Productivity: Tools: MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:8087]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Loony2392/unraid-templates/main/icons/sinusbot.png</Icon>
