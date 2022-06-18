@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>osTicket</Name>
+  <Repository>osticket/osticket</Repository>
+  <Registry>https://hub.docker.com/r/osticket/osticket</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/pi0/osticket-docker</Project>
+  <Overview> osTicket is a widely-used open source support ticket system. It seamlessly integrates inquiries created via email, phone and web-based forms into a simple easy-to-use multi-user web interface. Manage, organize and archive all your support requests and responses in one place while providing your customers with accountability and responsiveness they deserve.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8088]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/Loony2392/unraid-templates/blob/main/icons/osticket.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1655551881</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>- Database (Mariadb, Mysql )</Requires>
+  <Config Name="MYSQL_HOST" Target="mariadb" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mariadb</Config>
+  <Config Name="MYSQL_USER" Target="osticket" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">osticket</Config>
+  <Config Name="MYSQL_DATABASE" Target="osticket" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">osticket</Config>
+  <Config Name="MYSQL_PASSWORD" Target="secret" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">secret</Config>
+  <Config Name="INSTALL_NAME" Target="My Helpdesk" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">My Helpdesk</Config>
+  <Config Name="ADMIN_FIRSTNAME" Target="Admin" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Admin</Config>
+  <Config Name="ADMIN_LASTNAME" Target="User" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">User</Config>
+  <Config Name="ADMIN_EMAIL" Target="admin@example.com" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">admin@example.com</Config>
+  <Config Name="ADMIN_USERNAME" Target="ostadmin" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Admin1</Config>
+  <Config Name="MYSQL_PREFIX" Target="ost_" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">ost_</Config>
+</Container>
