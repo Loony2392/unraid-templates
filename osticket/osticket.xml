@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1655551881</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Help support my work by buying us a cold beer</DonateText>
+  <DonateLink>https://paypal.me/loony2392</DonateLink>
   <Requires>- Database (Mariadb, Mysql )</Requires>
   <Config Name="MYSQL_HOST" Target="MYSQL_HOST" Default="mariadb" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mariadb</Config>
   <Config Name="MYSQL_USER" Target="MYSQL_USER" Default="osticket" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">osticket</Config>
