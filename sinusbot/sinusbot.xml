@@ -3,7 +3,7 @@
   <Name>Sinusbot</Name>
   <Repository>sinusbot/docker</Repository>
   <Registry>https://hub.docker.com/r/sinusbot/docker</Registry>
-  <Network>ltn</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
