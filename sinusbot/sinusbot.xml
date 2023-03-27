@@ -32,5 +32,7 @@ Password: (your password from WEB UI Password)</Overview>
   <Config Name="WEB UI" Target="8087" Default="8087" Mode="tcp" Description="Port for WEB UI" Type="Port" Display="always" Required="true" Mask="false">8087</Config>
   <Config Name="Scripts Path" Target="/opt/sinusbot/scripts" Default="/mnt/user/appdata/sinusbot/scripts" Mode="rw" Description="Data Path for the Sinusbot Scripts" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/sinusbot/scripts</Config>
   <Config Name="Data Path" Target="/opt/sinusbot/data" Default="/mnt/user/appdata/sinusbot/data" Mode="rw" Description="Sinusbot Data Path. Where Sinusbot can Store Data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/sinusbot/data</Config>
+  <Config Name="UID" Target="UID" Default="1000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1000</Config>
+  <Config Name="GID" Target="GID" Default="1000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1000</Config>
   <Config Name="WEB UI Password" Target="OVERRIDE_PASSWORD" Default="foobar" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true">foobar</Config>
 </Container>
